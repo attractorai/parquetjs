@@ -1,9 +1,9 @@
 {
-  "name": "parquetjs",
+  "name": "@attractor/parquetjs",
   "description": "fully asynchronous, pure JavaScript implementation of the Parquet file format",
   "main": "parquet.js",
-  "version": "0.10.1",
-  "homepage": "https://github.com/ironSource/parquetjs",
+  "version": "0.10.1-patch1",
+  "homepage": "https://github.com/attractorai/parquetjs",
   "author": "ironSource <npm@ironsrc.com>",
   "license": "MIT",
   "keywords": [
@@ -12,13 +12,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/ironSource/parquetjs.git"
+    "url": "git://github.com/attractorai/parquetjs.git"
   },
   "dependencies": {
-    "brotli": "^1.3.0",
     "bson": "^1.0.4",
     "int53": "^0.2.4",
-    "lzo": "^0.4.0",
     "object-stream": "0.0.1",
     "snappyjs": "^0.6.0",
     "thrift": "^0.11.0",
